@@ -62,7 +62,28 @@ const WORD_IMAGES = {
   'toy': 'assets/images/unit3/toy.png',
   'doll': 'assets/images/unit3/doll.png',
   'box': 'assets/images/unit3/box.png',
-  'wall': 'assets/images/unit3/wall.png'
+  'wall': 'assets/images/unit3/wall.png',
+  // Unit 4
+  'clothes': 'assets/images/unit4/clothes.png',
+  'shirt': 'assets/images/unit4/shirt.png',
+  'pants': 'assets/images/unit4/pants.png',
+  'jeans': 'assets/images/unit4/jeans.png',
+  'skirt': 'assets/images/unit4/skirt.png',
+  'dress': 'assets/images/unit4/dress.png',
+  'sweater': 'assets/images/unit4/sweater.png',
+  'jacket': 'assets/images/unit4/jacket.png',
+  'tie': 'assets/images/unit4/tie.png',
+  'wear': 'assets/images/unit4/wear.png',
+  'new': 'assets/images/unit4/new.png',
+  'old': 'assets/images/unit4/old.png',
+  'shoes': 'assets/images/unit4/shoes.png',
+  'boots': 'assets/images/unit4/boots.png',
+  'socks': 'assets/images/unit4/socks.png',
+  'button': 'assets/images/unit4/button.png',
+  'pocket': 'assets/images/unit4/pocket.png',
+  'gloves': 'assets/images/unit4/gloves.png',
+  'scarf': 'assets/images/unit4/scarf.png',
+  'ring': 'assets/images/unit4/ring.png'
 };
 
 /* Emoji fallback for ALL words */
