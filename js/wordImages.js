@@ -20,7 +20,28 @@ const WORD_IMAGES = {
   'key': 'assets/images/unit1/key.png',
   'vase': 'assets/images/unit1/vase.png',
   'umbrella': 'assets/images/unit1/umbrella.png',
-  'roof': 'assets/images/unit1/roof.png'
+  'roof': 'assets/images/unit1/roof.png',
+  // Unit 2
+  'mirror': 'assets/images/unit2/mirror.png',
+  'soap': 'assets/images/unit2/soap.png',
+  'shampoo': 'assets/images/unit2/shampoo.png',
+  'brush': 'assets/images/unit2/brush.png',
+  'toothbrush': 'assets/images/unit2/toothbrush.png',
+  'toothpaste': 'assets/images/unit2/toothpaste.png',
+  'shower': 'assets/images/unit2/shower.png',
+  'towel': 'assets/images/unit2/towel.png',
+  'break': 'assets/images/unit2/break.png',
+  'use': 'assets/images/unit2/use.png',
+  'spoon': 'assets/images/unit2/spoon.png',
+  'fork': 'assets/images/unit2/fork.png',
+  'knife': 'assets/images/unit2/knife.png',
+  'chopstick': 'assets/images/unit2/chopstick.png',
+  'plate': 'assets/images/unit2/plate.png',
+  'cup': 'assets/images/unit2/cup.png',
+  'glass': 'assets/images/unit2/glass.png',
+  'jar': 'assets/images/unit2/jar.png',
+  'pan': 'assets/images/unit2/pan.png',
+  'refrigerator': 'assets/images/unit2/refrigerator.png'
 };
 
 /* Emoji fallback for ALL words */
