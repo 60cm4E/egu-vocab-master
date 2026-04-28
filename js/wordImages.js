@@ -104,7 +104,28 @@ const WORD_IMAGES = {
   'cousin': 'assets/images/unit5/cousin.png',
   'introduce': 'assets/images/unit5/introduce.png',
   'live': 'assets/images/unit5/live.png',
-  'together': 'assets/images/unit5/together.png'
+  'together': 'assets/images/unit5/together.png',
+  // Unit 6
+  'school': 'assets/images/unit6/school.png',
+  'teacher': 'assets/images/unit6/teacher.png',
+  'teach': 'assets/images/unit6/teach.png',
+  'student': 'assets/images/unit6/student.png',
+  'class': 'assets/images/unit6/class.png',
+  'classroom': 'assets/images/unit6/classroom.png',
+  'classmate': 'assets/images/unit6/classmate.png',
+  'blackboard': 'assets/images/unit6/blackboard.png',
+  'friend': 'assets/images/unit6/friend.png',
+  'enter': 'assets/images/unit6/enter.png',
+  'do': 'assets/images/unit6/do.png',
+  'homework': 'assets/images/unit6/homework.png',
+  'lesson': 'assets/images/unit6/lesson.png',
+  'test': 'assets/images/unit6/test.png',
+  'grade': 'assets/images/unit6/grade.png',
+  'homeroom': 'assets/images/unit6/homeroom.png',
+  'elementary': 'assets/images/unit6/elementary.png',
+  'learn': 'assets/images/unit6/learn.png',
+  'read': 'assets/images/unit6/read.png',
+  'write': 'assets/images/unit6/write.png'
 };
 
 /* Emoji fallback for ALL words */
