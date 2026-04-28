@@ -169,6 +169,13 @@ const Learn = {
     const current = this.currentIndex + 1;
     const pct = Math.round((current / total) * 100);
     
+    // Get image or emoji for this word
+    const imgPath = getWordImage(word.english);
+    const emoji = getWordEmoji(word.english);
+    const visualHTML = imgPath 
+      ? `<div class="flashcard-image"><img src="${imgPath}" alt="${word.english}" onerror="this.parentElement.innerHTML='<span class=\\'flashcard-emoji\\'>${emoji}</span>'"></div>`
+      : `<div class="flashcard-image"><span class="flashcard-emoji">${emoji}</span></div>`;
+    
     screen.innerHTML = `
       <div class="flashcard-progress">
         <span class="current-count">${current} / ${total}</span>
@@ -181,11 +188,13 @@ const Learn = {
       <div class="flashcard-container">
         <div class="flashcard" id="flashcard" onclick="Learn._flipCard()">
           <div class="flashcard-face flashcard-front">
+            ${visualHTML}
             <div class="flashcard-word">${word.english}</div>
             <button class="flashcard-listen-btn" onclick="event.stopPropagation(); Audio.speak('${word.english}')">🔊</button>
             <div class="flashcard-hint">탭하면 뜻을 확인해요</div>
           </div>
           <div class="flashcard-face flashcard-back">
+            ${visualHTML}
             <div class="flashcard-meaning">${word.korean}</div>
             <div class="flashcard-word" style="font-size: var(--font-size-xl); margin-top: 8px; opacity: 0.8;">${word.english}</div>
           </div>
