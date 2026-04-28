@@ -1,0 +1,26 @@
+{
+  "name": "EGU 영단어 마스터",
+  "short_name": "EGU영단어",
+  "description": "초등학생을 위한 인터랙티브 영어 단어 학습 앱",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F7FF",
+  "theme_color": "#6C5CE7",
+  "orientation": "portrait",
+  "categories": ["education"],
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
