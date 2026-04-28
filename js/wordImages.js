@@ -83,7 +83,28 @@ const WORD_IMAGES = {
   'pocket': 'assets/images/unit4/pocket.png',
   'gloves': 'assets/images/unit4/gloves.png',
   'scarf': 'assets/images/unit4/scarf.png',
-  'ring': 'assets/images/unit4/ring.png'
+  'ring': 'assets/images/unit4/ring.png',
+  // Unit 5
+  'family': 'assets/images/unit5/family.png',
+  'father': 'assets/images/unit5/father.png',
+  'mother': 'assets/images/unit5/mother.png',
+  'brother': 'assets/images/unit5/brother.png',
+  'sister': 'assets/images/unit5/sister.png',
+  'grandfather': 'assets/images/unit5/grandfather.png',
+  'grandmother': 'assets/images/unit5/grandmother.png',
+  'parents': 'assets/images/unit5/parents.png',
+  'grandparents': 'assets/images/unit5/grandparents.png',
+  'grandchild': 'assets/images/unit5/grandchild.png',
+  'husband': 'assets/images/unit5/husband.png',
+  'wife': 'assets/images/unit5/wife.png',
+  'son': 'assets/images/unit5/son.png',
+  'daughter': 'assets/images/unit5/daughter.png',
+  'uncle': 'assets/images/unit5/uncle.png',
+  'aunt': 'assets/images/unit5/aunt.png',
+  'cousin': 'assets/images/unit5/cousin.png',
+  'introduce': 'assets/images/unit5/introduce.png',
+  'live': 'assets/images/unit5/live.png',
+  'together': 'assets/images/unit5/together.png'
 };
 
 /* Emoji fallback for ALL words */
