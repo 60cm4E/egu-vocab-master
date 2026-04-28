@@ -41,7 +41,28 @@ const WORD_IMAGES = {
   'glass': 'assets/images/unit2/glass.png',
   'jar': 'assets/images/unit2/jar.png',
   'pan': 'assets/images/unit2/pan.png',
-  'refrigerator': 'assets/images/unit2/refrigerator.png'
+  'refrigerator': 'assets/images/unit2/refrigerator.png',
+  // Unit 3
+  'bed': 'assets/images/unit3/bed.png',
+  'pillow': 'assets/images/unit3/pillow.png',
+  'blanket': 'assets/images/unit3/blanket.png',
+  'lamp': 'assets/images/unit3/lamp.png',
+  'closet': 'assets/images/unit3/closet.png',
+  'dry': 'assets/images/unit3/dry.png',
+  'wet': 'assets/images/unit3/wet.png',
+  'cover': 'assets/images/unit3/cover.png',
+  'fan': 'assets/images/unit3/fan.png',
+  'air conditioner': 'assets/images/unit3/air_conditioner.png',
+  'desk': 'assets/images/unit3/desk.png',
+  'chair': 'assets/images/unit3/chair.png',
+  'drawer': 'assets/images/unit3/drawer.png',
+  'computer': 'assets/images/unit3/computer.png',
+  'bookshelf': 'assets/images/unit3/bookshelf.png',
+  'lock': 'assets/images/unit3/lock.png',
+  'toy': 'assets/images/unit3/toy.png',
+  'doll': 'assets/images/unit3/doll.png',
+  'box': 'assets/images/unit3/box.png',
+  'wall': 'assets/images/unit3/wall.png'
 };
 
 /* Emoji fallback for ALL words */
