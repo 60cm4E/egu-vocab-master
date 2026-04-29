@@ -167,7 +167,28 @@ const WORD_IMAGES = {
   'answer': 'assets/images/unit8/answer.png',
   'repeat': 'assets/images/unit8/repeat.png',
   'practice': 'assets/images/unit8/practice.png',
-  'understand': 'assets/images/unit8/understand.png'
+  'understand': 'assets/images/unit8/understand.png',
+  // Unit 9
+  'sport(s)': 'assets/images/unit9/sports.png',
+  'soccer': 'assets/images/unit9/soccer.png',
+  'football': 'assets/images/unit9/football.png',
+  'baseball': 'assets/images/unit9/baseball.png',
+  'basketball': 'assets/images/unit9/basketball.png',
+  'volleyball': 'assets/images/unit9/volleyball.png',
+  'tennis': 'assets/images/unit9/tennis.png',
+  'table tennis': 'assets/images/unit9/table_tennis.png',
+  'badminton': 'assets/images/unit9/badminton.png',
+  'skate': 'assets/images/unit9/skate.png',
+  'bat': 'assets/images/unit9/bat.png',
+  'change': 'assets/images/unit9/change.png',
+  'game': 'assets/images/unit9/game.png',
+  'player': 'assets/images/unit9/player.png',
+  'team': 'assets/images/unit9/team.png',
+  'ready': 'assets/images/unit9/ready.png',
+  'gym': 'assets/images/unit9/gym.png',
+  'stadium': 'assets/images/unit9/stadium.png',
+  'join': 'assets/images/unit9/join.png',
+  'sweat': 'assets/images/unit9/sweat.png'
 };
 
 /* Emoji fallback for ALL words */
