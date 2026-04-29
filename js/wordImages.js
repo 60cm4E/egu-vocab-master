@@ -214,11 +214,27 @@ const WORD_IMAGES = {
   'finger': 'assets/images/unit11/finger.png',
   'leg': 'assets/images/unit11/leg.png',
   'foot': 'assets/images/unit11/foot.png',
-  'toe': 'assets/images/unit11/toe.png',
-  'big': 'assets/images/unit11/big.png',
-  'small': 'assets/images/unit11/small.png',
-  'long': 'assets/images/unit11/long.png',
-  'short': 'assets/images/unit11/short.png'
+  'short': 'assets/images/unit11/short.png',
+  'tall': 'assets/images/unit12/tall.png',
+  'pretty': 'assets/images/unit12/pretty.png',
+  'lovely': 'assets/images/unit12/lovely.png',
+  'beautiful': 'assets/images/unit12/beautiful.png',
+  'beauty': 'assets/images/unit12/beauty.png',
+  'handsome': 'assets/images/unit12/handsome.png',
+  'ugly': 'assets/images/unit12/ugly.png',
+  'fat': 'assets/images/unit12/fat.png',
+  'slim': 'assets/images/unit12/slim.png',
+  'young': 'assets/images/unit12/young.png',
+  'hair': 'assets/images/unit12/hair.png',
+  'curly': 'assets/images/unit12/curly.png',
+  'strong': 'assets/images/unit12/strong.png',
+  'weak': 'assets/images/unit12/weak.png',
+  'red': 'assets/images/unit12/red.png',
+  'blue': 'assets/images/unit12/blue.png',
+  'green': 'assets/images/unit12/green.png',
+  'white': 'assets/images/unit12/white.png',
+  'gray/grey': 'assets/images/unit12/gray.png',
+  'silver': 'assets/images/unit12/silver.png'
 };
 
 /* Emoji fallback for ALL words */
