@@ -264,7 +264,8 @@ const WORD_IMAGES = {
   'sorry': 'assets/images/unit14/sorry.png',
   'thank': 'assets/images/unit14/thank.png',
   'love': 'assets/images/unit14/love.png',
-  'hate': 'assets/images/unit14/hate.png'
+  'hate': 'assets/images/unit14/hate.png',
+  'afraid': 'assets/images/unit14/afraid.png'
 };
 
 /* Emoji fallback for ALL words */
