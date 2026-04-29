@@ -294,7 +294,27 @@ const WORD_IMAGES = {
   'polite': 'assets/images/unit15/polite.png',
   'fun': 'assets/images/unit15/fun.png',
   'funny': 'assets/images/unit15/funny.png',
-  'smart': 'assets/images/unit15/smart.png'
+  'smart': 'assets/images/unit15/smart.png',
+  'good': 'assets/images/unit16/good.png',
+  'morning': 'assets/images/unit16/morning.png',
+  'afternoon': 'assets/images/unit16/afternoon.png',
+  'evening': 'assets/images/unit16/evening.png',
+  'night': 'assets/images/unit16/night.png',
+  'noon': 'assets/images/unit16/noon.png',
+  'today': 'assets/images/unit16/today.png',
+  'tonight': 'assets/images/unit16/tonight.png',
+  'early': 'assets/images/unit16/early.png',
+  'late': 'assets/images/unit16/late.png',
+  'tomorrow': 'assets/images/unit16/tomorrow.png',
+  'yesterday': 'assets/images/unit16/yesterday.png',
+  'date': 'assets/images/unit16/date.png',
+  'time': 'assets/images/unit16/time.png',
+  'hour': 'assets/images/unit16/hour.png',
+  'minute': 'assets/images/unit16/minute.png',
+  'second': 'assets/images/unit16/second.png',
+  'past': 'assets/images/unit16/past.png',
+  'present': 'assets/images/unit16/present.png',
+  'future': 'assets/images/unit16/future.png'
 };
 
 /* Emoji fallback for ALL words */
