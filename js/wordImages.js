@@ -178,7 +178,27 @@ const WORD_IMAGES = {
   'table tennis': 'assets/images/unit9/table_tennis.png',
   'team': 'assets/images/unit9/team.png',
   'tennis': 'assets/images/unit9/tennis.png',
-  'volleyball': 'assets/images/unit9/volleyball.png'
+  'volleyball': 'assets/images/unit9/volleyball.png',
+  'race': 'assets/images/unit10/race.png',
+  'match': 'assets/images/unit10/match.png',
+  'fair': 'assets/images/unit10/fair.png',
+  'point': 'assets/images/unit10/point.png',
+  'score': 'assets/images/unit10/score.png',
+  'win': 'assets/images/unit10/win.png',
+  'lose': 'assets/images/unit10/lose.png',
+  'watch': 'assets/images/unit10/watch.png',
+  'victory': 'assets/images/unit10/victory.png',
+  'rule': 'assets/images/unit10/rule.png',
+  'goal': 'assets/images/unit10/goal.png',
+  'medal': 'assets/images/unit10/medal.png',
+  'prize': 'assets/images/unit10/prize.png',
+  'champion': 'assets/images/unit10/champion.png',
+  'marathon': 'assets/images/unit10/marathon.png',
+  'speed': 'assets/images/unit10/speed.png',
+  'train': 'assets/images/unit10/train.png',
+  'cheer': 'assets/images/unit10/cheer.png',
+  'captain': 'assets/images/unit10/captain.png',
+  'coach': 'assets/images/unit10/coach.png'
 };
 
 /* Emoji fallback for ALL words */
