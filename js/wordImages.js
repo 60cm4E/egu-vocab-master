@@ -265,7 +265,16 @@ const WORD_IMAGES = {
   'thank': 'assets/images/unit14/thank.png',
   'love': 'assets/images/unit14/love.png',
   'hate': 'assets/images/unit14/hate.png',
-  'afraid': 'assets/images/unit14/afraid.png'
+  'afraid': 'assets/images/unit14/afraid.png',
+  'worry': 'assets/images/unit14/worry.png',
+  'worried': 'assets/images/unit14/worried.png',
+  'fine': 'assets/images/unit14/fine.png',
+  'cry': 'assets/images/unit14/cry.png',
+  'crazy': 'assets/images/unit14/crazy.png',
+  'serious': 'assets/images/unit14/serious.png',
+  'look': 'assets/images/unit14/look.png',
+  'feel': 'assets/images/unit14/feel.png',
+  'get': 'assets/images/unit14/get.png'
 };
 
 /* Emoji fallback for ALL words */
