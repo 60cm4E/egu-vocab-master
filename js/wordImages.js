@@ -198,7 +198,27 @@ const WORD_IMAGES = {
   'train': 'assets/images/unit10/train.png',
   'cheer': 'assets/images/unit10/cheer.png',
   'captain': 'assets/images/unit10/captain.png',
-  'coach': 'assets/images/unit10/coach.png'
+  'coach': 'assets/images/unit10/coach.png',
+  'face': 'assets/images/unit11/face.png',
+  'eye': 'assets/images/unit11/eye.png',
+  'nose': 'assets/images/unit11/nose.png',
+  'mouth': 'assets/images/unit11/mouth.png',
+  'ear': 'assets/images/unit11/ear.png',
+  'lip': 'assets/images/unit11/lip.png',
+  'tooth': 'assets/images/unit11/tooth.png',
+  'head': 'assets/images/unit11/head.png',
+  'neck': 'assets/images/unit11/neck.png',
+  'shoulder': 'assets/images/unit11/shoulder.png',
+  'arm': 'assets/images/unit11/arm.png',
+  'hand': 'assets/images/unit11/hand.png',
+  'finger': 'assets/images/unit11/finger.png',
+  'leg': 'assets/images/unit11/leg.png',
+  'foot': 'assets/images/unit11/foot.png',
+  'toe': 'assets/images/unit11/toe.png',
+  'big': 'assets/images/unit11/big.png',
+  'small': 'assets/images/unit11/small.png',
+  'long': 'assets/images/unit11/long.png',
+  'short': 'assets/images/unit11/short.png'
 };
 
 /* Emoji fallback for ALL words */
