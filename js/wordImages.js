@@ -146,7 +146,28 @@ const WORD_IMAGES = {
   'crayon': 'assets/images/unit7/crayon.png',
   'diary': 'assets/images/unit7/diary.png',
   'dictionary': 'assets/images/unit7/dictionary.png',
-  'calendar': 'assets/images/unit7/calendar.png'
+  'calendar': 'assets/images/unit7/calendar.png',
+  // Unit 8
+  'study': 'assets/images/unit8/study.png',
+  'subject': 'assets/images/unit8/subject.png',
+  'math': 'assets/images/unit8/math.png',
+  'science': 'assets/images/unit8/science.png',
+  'art': 'assets/images/unit8/art.png',
+  'music': 'assets/images/unit8/music.png',
+  'example': 'assets/images/unit8/example.png',
+  'exam': 'assets/images/unit8/exam.png',
+  'quiz': 'assets/images/unit8/quiz.png',
+  'fail': 'assets/images/unit8/fail.png',
+  'correct': 'assets/images/unit8/correct.png',
+  'word': 'assets/images/unit8/word.png',
+  'sentence': 'assets/images/unit8/sentence.png',
+  'story': 'assets/images/unit8/story.png',
+  'ask': 'assets/images/unit8/ask.png',
+  'question': 'assets/images/unit8/question.png',
+  'answer': 'assets/images/unit8/answer.png',
+  'repeat': 'assets/images/unit8/repeat.png',
+  'practice': 'assets/images/unit8/practice.png',
+  'understand': 'assets/images/unit8/understand.png'
 };
 
 /* Emoji fallback for ALL words */
