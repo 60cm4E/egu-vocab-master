@@ -334,7 +334,27 @@ const WORD_IMAGES = {
   'once': 'assets/images/unit17/once.png',
   'twice': 'assets/images/unit17/twice.png',
   'this': 'assets/images/unit17/this.png',
-  'that': 'assets/images/unit17/that.png'
+  'that': 'assets/images/unit17/that.png',
+  'month': 'assets/images/unit18/month.png',
+  'year': 'assets/images/unit18/year.png',
+  'January': 'assets/images/unit18/january.png',
+  'February': 'assets/images/unit18/february.png',
+  'March': 'assets/images/unit18/march.png',
+  'April': 'assets/images/unit18/april.png',
+  'May': 'assets/images/unit18/may.png',
+  'June': 'assets/images/unit18/june.png',
+  'July': 'assets/images/unit18/july.png',
+  'August': 'assets/images/unit18/august.png',
+  'September': 'assets/images/unit18/september.png',
+  'October': 'assets/images/unit18/october.png',
+  'November': 'assets/images/unit18/november.png',
+  'December': 'assets/images/unit18/december.png',
+  'every': 'assets/images/unit18/every.png',
+  'before': 'assets/images/unit18/before.png',
+  'after': 'assets/images/unit18/after.png',
+  'during': 'assets/images/unit18/during.png',
+  'then': 'assets/images/unit18/then.png',
+  'later': 'assets/images/unit18/later.png'
 };
 
 /* Emoji fallback for ALL words */
