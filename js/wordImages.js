@@ -354,7 +354,18 @@ const WORD_IMAGES = {
   'after': 'assets/images/unit18/after.png',
   'during': 'assets/images/unit18/during.png',
   'then': 'assets/images/unit18/then.png',
-  'later': 'assets/images/unit18/later.png'
+  'later': 'assets/images/unit18/later.png',
+  'birthday': 'assets/images/unit19/birthday.png',
+  'party': 'assets/images/unit19/party.png',
+  'cake': 'assets/images/unit19/cake.png',
+  'candle': 'assets/images/unit19/candle.png',
+  'gift': 'assets/images/unit19/gift.png',
+  'age': 'assets/images/unit19/age.png',
+  'invite': 'assets/images/unit19/invite.png',
+  'surprise': 'assets/images/unit19/surprise.png',
+  'celebrate': 'assets/images/unit19/celebrate.png',
+  'laugh': 'assets/images/unit19/laugh.png',
+  'first': 'assets/images/unit19/first.png'
 };
 
 /* Emoji fallback for ALL words */
