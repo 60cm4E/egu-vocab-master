@@ -318,6 +318,10 @@ const Test = {
           `).join('')}
         </div>
       `;
+      
+      if (isEnglish) {
+        setTimeout(() => Audio.speak(q.question), 300);
+      }
     }
     
     screen.innerHTML = `

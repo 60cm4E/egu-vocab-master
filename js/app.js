@@ -25,7 +25,7 @@ const App = {
     const nameInput = document.getElementById('student-name');
     const codeInput = document.getElementById('class-code');
     
-    loginBtn.addEventListener('click', () => {
+    loginBtn.addEventListener('click', async () => {
       const name = nameInput.value.trim();
       const code = codeInput.value.trim();
       
@@ -40,9 +40,18 @@ const App = {
         return;
       }
       
+      loginBtn.disabled = true;
+      loginBtn.innerHTML = '로딩 중...';
+      
       const profileId = Storage.generateProfileId(name, code);
+      await Storage.syncFromFirebase(profileId); // Try to fetch from server
+      
       Storage.saveProfile({ id: profileId, name, classCode: code });
       Storage.setCurrentProfile(profileId);
+      
+      loginBtn.disabled = false;
+      loginBtn.innerHTML = '🚀 시작하기';
+      
       this._enterApp();
     });
     
@@ -78,9 +87,11 @@ const App = {
     `;
   },
 
-  _quickLogin(profileId) {
+  async _quickLogin(profileId) {
     const profile = Storage.getProfiles().find(p => p.id === profileId);
     if (profile) {
+      this.showToast('로딩 중...', 'success');
+      await Storage.syncFromFirebase(profileId); // Try to fetch from server
       Storage.saveProfile(profile); // Update lastLogin
       Storage.setCurrentProfile(profileId);
       this._enterApp();

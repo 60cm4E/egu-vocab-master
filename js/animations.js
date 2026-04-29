@@ -25,70 +25,31 @@ const Animations = {
 
   // --- Confetti Effect ---
   confetti(duration = 3000) {
-    if (!this.confettiCtx) return;
+    if (typeof window.confetti !== 'function') return;
     
-    const colors = ['#6C5CE7', '#A29BFE', '#FD79A8', '#FDCB6E', '#00B894', '#74B9FF', '#FF6B6B', '#55EFC4'];
-    const count = 80;
-    
-    this.particles = [];
-    
-    for (let i = 0; i < count; i++) {
-      this.particles.push({
-        x: Math.random() * this.confettiCanvas.width,
-        y: -20 - Math.random() * 200,
-        w: 6 + Math.random() * 6,
-        h: 4 + Math.random() * 4,
-        color: colors[Math.floor(Math.random() * colors.length)],
-        vx: (Math.random() - 0.5) * 4,
-        vy: 2 + Math.random() * 4,
-        rotation: Math.random() * 360,
-        rotationSpeed: (Math.random() - 0.5) * 10,
-        opacity: 1
-      });
-    }
+    const end = Date.now() + duration;
+    const colors = ['#6C5CE7', '#A29BFE', '#FD79A8', '#FDCB6E', '#00B894', '#74B9FF', '#FF6B6B'];
 
-    this.animating = true;
-    const startTime = Date.now();
-    
-    const animate = () => {
-      if (!this.animating) return;
-      
-      const elapsed = Date.now() - startTime;
-      this.confettiCtx.clearRect(0, 0, this.confettiCanvas.width, this.confettiCanvas.height);
-      
-      let alive = 0;
-      
-      for (const p of this.particles) {
-        p.x += p.vx;
-        p.y += p.vy;
-        p.vy += 0.1; // gravity
-        p.rotation += p.rotationSpeed;
-        
-        if (elapsed > duration * 0.6) {
-          p.opacity = Math.max(0, p.opacity - 0.02);
-        }
-        
-        if (p.y < this.confettiCanvas.height + 50 && p.opacity > 0) {
-          alive++;
-          this.confettiCtx.save();
-          this.confettiCtx.translate(p.x, p.y);
-          this.confettiCtx.rotate((p.rotation * Math.PI) / 180);
-          this.confettiCtx.globalAlpha = p.opacity;
-          this.confettiCtx.fillStyle = p.color;
-          this.confettiCtx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
-          this.confettiCtx.restore();
-        }
+    (function frame() {
+      window.confetti({
+        particleCount: 5,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: colors
+      });
+      window.confetti({
+        particleCount: 5,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: colors
+      });
+
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
       }
-      
-      if (alive > 0 && elapsed < duration) {
-        requestAnimationFrame(animate);
-      } else {
-        this.confettiCtx.clearRect(0, 0, this.confettiCanvas.width, this.confettiCanvas.height);
-        this.animating = false;
-      }
-    };
-    
-    requestAnimationFrame(animate);
+    }());
   },
 
   // --- Star Burst Effect ---

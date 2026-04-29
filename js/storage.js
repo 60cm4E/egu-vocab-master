@@ -59,6 +59,51 @@ const Storage = {
 
   _set(key, value) {
     localStorage.setItem(this._key(key), JSON.stringify(value));
+    this._syncToFirebase();
+  },
+
+  _syncToFirebase() {
+    const profile = this.getCurrentProfile();
+    if (!profile || !window.db) return;
+    
+    // Collect all data for this profile
+    const data = {};
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k.startsWith(this.PREFIX + profile.id + '_')) {
+        const shortKey = k.replace(this.PREFIX + profile.id + '_', '');
+        try { data[shortKey] = JSON.parse(localStorage.getItem(k)); } 
+        catch { data[shortKey] = localStorage.getItem(k); }
+      }
+    }
+    
+    // Save to Firestore asynchronously
+    window.db.collection('users').doc(profile.id).set({
+      profile: profile,
+      data: data,
+      lastUpdated: new Date()
+    }, { merge: true }).catch(err => console.error("Firebase sync error", err));
+  },
+
+  async syncFromFirebase(profileId) {
+    if (!window.db) return false;
+    try {
+      const doc = await window.db.collection('users').doc(profileId).get();
+      if (doc.exists) {
+        const docData = doc.data();
+        if (docData.data) {
+          // Restore all data to local storage
+          Object.keys(docData.data).forEach(k => {
+            const val = docData.data[k];
+            localStorage.setItem(this.PREFIX + profileId + '_' + k, JSON.stringify(val));
+          });
+          return true;
+        }
+      }
+    } catch (err) {
+      console.error("Firebase fetch error", err);
+    }
+    return false;
   },
 
   // --- Learning Progress ---

@@ -212,12 +212,28 @@ const Learn = {
     `;
     
     App.showBackButton(true);
+    
+    // Auto-play English TTS when card appears
+    setTimeout(() => Audio.speak(word.english), 150);
   },
 
   _flipCard() {
     const card = document.getElementById('flashcard');
-    if (card) card.classList.toggle('flipped');
-    Audio.playClick();
+    if (card) {
+      const isFlipped = card.classList.toggle('flipped');
+      Audio.playClick();
+      
+      const word = this.currentWords[this.currentIndex];
+      if (word) {
+        if (isFlipped) {
+          // Read Korean when back is shown
+          setTimeout(() => Audio.speakKorean(word.korean), 150);
+        } else {
+          // Read English when front is shown again
+          setTimeout(() => Audio.speak(word.english), 150);
+        }
+      }
+    }
   },
 
   _markWord(known) {

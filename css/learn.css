@@ -167,8 +167,16 @@
   transform-style: preserve-3d;
 }
 
+.flashcard:hover {
+  transform: translateY(-5px);
+}
+
 .flashcard.flipped {
   transform: rotateY(180deg);
+}
+
+.flashcard.flipped:hover {
+  transform: rotateY(180deg) translateY(-5px);
 }
 
 .flashcard-face {
