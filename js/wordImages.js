@@ -234,7 +234,27 @@ const WORD_IMAGES = {
   'green': 'assets/images/unit12/green.png',
   'white': 'assets/images/unit12/white.png',
   'gray/grey': 'assets/images/unit12/gray.png',
-  'silver': 'assets/images/unit12/silver.png'
+  'silver': 'assets/images/unit12/silver.png',
+  'gold': 'assets/images/unit13/gold.png',
+  'color': 'assets/images/unit13/color.png',
+  'orange': 'assets/images/unit13/orange.png',
+  'pink': 'assets/images/unit13/pink.png',
+  'yellow': 'assets/images/unit13/yellow.png',
+  'brown': 'assets/images/unit13/brown.png',
+  'black': 'assets/images/unit13/black.png',
+  'shape': 'assets/images/unit13/shape.png',
+  'circle': 'assets/images/unit13/circle.png',
+  'round': 'assets/images/unit13/round.png',
+  'line': 'assets/images/unit13/line.png',
+  'straight': 'assets/images/unit13/straight.png',
+  'middle': 'assets/images/unit13/middle.png',
+  'center': 'assets/images/unit13/center.png',
+  'half': 'assets/images/unit13/half.png',
+  'cross': 'assets/images/unit13/cross.png',
+  'heart': 'assets/images/unit13/heart.png',
+  'size': 'assets/images/unit13/size.png',
+  'heavy': 'assets/images/unit13/heavy.png',
+  'light': 'assets/images/unit13/light.png'
 };
 
 /* Emoji fallback for ALL words */
