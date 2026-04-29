@@ -274,7 +274,27 @@ const WORD_IMAGES = {
   'serious': 'assets/images/unit14/serious.png',
   'look': 'assets/images/unit14/look.png',
   'feel': 'assets/images/unit14/feel.png',
-  'get': 'assets/images/unit14/get.png'
+  'get': 'assets/images/unit14/get.png',
+  'baby': 'assets/images/unit15/baby.png',
+  'child': 'assets/images/unit15/child.png',
+  'kid': 'assets/images/unit15/kid.png',
+  'boy': 'assets/images/unit15/boy.png',
+  'girl': 'assets/images/unit15/girl.png',
+  'man': 'assets/images/unit15/man.png',
+  'woman': 'assets/images/unit15/woman.png',
+  'gentleman': 'assets/images/unit15/gentleman.png',
+  'lady': 'assets/images/unit15/lady.png',
+  'person': 'assets/images/unit15/person.png',
+  'people': 'assets/images/unit15/people.png',
+  'kind': 'assets/images/unit15/kind.png',
+  'friendly': 'assets/images/unit15/friendly.png',
+  'brave': 'assets/images/unit15/brave.png',
+  'careful': 'assets/images/unit15/careful.png',
+  'honest': 'assets/images/unit15/honest.png',
+  'polite': 'assets/images/unit15/polite.png',
+  'fun': 'assets/images/unit15/fun.png',
+  'funny': 'assets/images/unit15/funny.png',
+  'smart': 'assets/images/unit15/smart.png'
 };
 
 /* Emoji fallback for ALL words */
