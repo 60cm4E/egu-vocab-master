@@ -314,7 +314,27 @@ const WORD_IMAGES = {
   'second': 'assets/images/unit16/second.png',
   'past': 'assets/images/unit16/past.png',
   'present': 'assets/images/unit16/present.png',
-  'future': 'assets/images/unit16/future.png'
+  'future': 'assets/images/unit16/future.png',
+  'Monday': 'assets/images/unit17/monday.png',
+  'Tuesday': 'assets/images/unit17/tuesday.png',
+  'Wednesday': 'assets/images/unit17/wednesday.png',
+  'Thursday': 'assets/images/unit17/thursday.png',
+  'Friday': 'assets/images/unit17/friday.png',
+  'Saturday': 'assets/images/unit17/saturday.png',
+  'Sunday': 'assets/images/unit17/sunday.png',
+  'next': 'assets/images/unit17/next.png',
+  'last': 'assets/images/unit17/last.png',
+  'busy': 'assets/images/unit17/busy.png',
+  'day': 'assets/images/unit17/day.png',
+  'week': 'assets/images/unit17/week.png',
+  'weekend': 'assets/images/unit17/weekend.png',
+  'meet': 'assets/images/unit17/meet.png',
+  'picnic': 'assets/images/unit17/picnic.png',
+  'now': 'assets/images/unit17/now.png',
+  'once': 'assets/images/unit17/once.png',
+  'twice': 'assets/images/unit17/twice.png',
+  'this': 'assets/images/unit17/this.png',
+  'that': 'assets/images/unit17/that.png'
 };
 
 /* Emoji fallback for ALL words */
