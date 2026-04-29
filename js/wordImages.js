@@ -125,7 +125,28 @@ const WORD_IMAGES = {
   'elementary': 'assets/images/unit6/elementary.png',
   'learn': 'assets/images/unit6/learn.png',
   'read': 'assets/images/unit6/read.png',
-  'write': 'assets/images/unit6/write.png'
+  'write': 'assets/images/unit6/write.png',
+  // Unit 7
+  'bag': 'assets/images/unit7/bag.png',
+  'pen': 'assets/images/unit7/pen.png',
+  'pencil': 'assets/images/unit7/pencil.png',
+  'pencil case': 'assets/images/unit7/pencil_case.png',
+  'paper': 'assets/images/unit7/paper.png',
+  'book': 'assets/images/unit7/book.png',
+  'notebook': 'assets/images/unit7/notebook.png',
+  'textbook': 'assets/images/unit7/textbook.png',
+  'eraser': 'assets/images/unit7/eraser.png',
+  'ruler': 'assets/images/unit7/ruler.png',
+  'sharp': 'assets/images/unit7/sharp.png',
+  'thick': 'assets/images/unit7/thick.png',
+  'thin': 'assets/images/unit7/thin.png',
+  'borrow': 'assets/images/unit7/borrow.png',
+  'scissors': 'assets/images/unit7/scissors.png',
+  'glue': 'assets/images/unit7/glue.png',
+  'crayon': 'assets/images/unit7/crayon.png',
+  'diary': 'assets/images/unit7/diary.png',
+  'dictionary': 'assets/images/unit7/dictionary.png',
+  'calendar': 'assets/images/unit7/calendar.png'
 };
 
 /* Emoji fallback for ALL words */
